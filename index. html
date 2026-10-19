@@ -1,1 +1,20 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Uppgift 2a – Odd Loop</title>
+</head>
+<body>
+  <script>
+    // Uppgift 2a – Odd Loop
 
+    for (let i = 0; i < 10; i++) {
+      if (i % 2 === 0) {
+        document.body.append("X");
+      } else {
+        document.body.append("O");
+      }
+    }
+  </script>
+</body>
+</html>
